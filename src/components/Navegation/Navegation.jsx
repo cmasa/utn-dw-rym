@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 export default function Navegation({ page }) {
     return (
-        <nav className="navbar navbar-expand-md p-5 sticky-top">
+        <nav className="navbar navbar-expand-md px-2 py-5 p-sm-5 sticky-top">
             <div className="container-fluid justify-content-between aling-items-center">
                 <h1>
                     <Link to="/" className="link-home p-5">
