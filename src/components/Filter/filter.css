@@ -1,0 +1,16 @@
+.form-check-label{
+    color:var(--filter-input-color);
+}
+
+.form-check-input{
+    background-color: var(--filter-input-color);
+}
+
+.filter-container{
+    background-color: var(--nav-bg);
+    padding: 11px 45px;
+}
+
+.form-check-input:checked+.form-check-label{
+    color: white;
+}

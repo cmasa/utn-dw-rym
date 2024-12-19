@@ -1,0 +1,15 @@
+.main-cont{
+    height: 100vh;
+}
+
+.cont-home{
+    background-color: #ffffffe6;
+    max-width: 600px;
+    min-height: 600px;
+    color: var(--dark-color-font);
+    padding: 5px;
+}
+
+p{
+    font-weight: 450;
+}

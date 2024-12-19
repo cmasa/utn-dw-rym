@@ -1,0 +1,73 @@
+.tarjeta{
+    background-color: var(--card-color-bg);
+    padding: 5px;
+    width: var(--card-size);
+}
+
+.tarjeta-open{
+    background-color: var(--card-color-bg);
+    padding: 5px;
+    width: var(--card-open-size);
+}
+
+.tarjeta-info, .tarjeta-char{
+    background-color: var(--card-color-bg);
+    padding: 5px;
+    width: 310px;
+}
+
+.char-name{
+    color: var(--light-color-font);
+    font-weight: 550;
+}
+
+.btn-more{
+    background-color: var(--light-color-font);
+    width: 120px;
+}
+
+.btn-close-info{
+    background-color: var(--light-color-font);
+    width: 35px;
+    height: 38px;
+}
+
+.lst-info{
+    list-style: none;
+    color: white;
+    padding: 0;
+    border-radius: 8px;
+    border-color: transparent;
+    overflow: hidden;
+    width: 290px;
+}
+
+.p-info{
+    font-weight: 850;
+    font-size: 18px;
+}
+
+h4{
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+
+li{
+    padding: 10px;
+}
+
+li:hover{
+    background-color: var(--light-color-font);
+    color: var(--dark-color-font)
+}
+
+/* Disable Hover Effect */
+.btn-more:hover{
+    background-color: var(--light-color-font);
+}
+
+@media (max-width:655px) {
+    .tarjeta-open{
+        width: var(--card-size);
+    }
+}

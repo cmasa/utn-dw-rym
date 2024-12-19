@@ -1,0 +1,44 @@
+nav{
+    background-color: var(--nav-bg);
+}
+
+.navbar-toggler-icon{
+    background-image: url(../../assets/img/list.svg)!important;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.navbar-collapse {
+    text-align: center;
+    display: inline-flex;
+}
+
+.link-home{
+    color: var(--light-color-font);
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.link-item{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.link-item a{
+    color: var(--light-color-font);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.link-item:hover a, .active a{
+    color: var(--dark-color-font);
+}
+
+.link-item:hover, .active{
+    background-color: var(--nav-link-color);
+}

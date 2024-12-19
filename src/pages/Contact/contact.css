@@ -1,0 +1,24 @@
+.cont-contact{
+    background-color: var(--cont-contact-bg);
+}
+
+.btn-submit{
+    background-color: var(--dark-color-font);
+    color: white;
+    font-weight: 500;
+}
+
+.btn-submit:hover{
+    background-color: var(--light-color-font);
+    color: var(--dark-color-font);
+}
+
+.form-lbl{
+    font-weight: 550;
+}
+
+.input-text:focus , .text-area:focus{
+    outline: none;
+    box-shadow: 5px 5px 10px var(--dark-color-font),
+                -5px -5px 10px var(--dark-color-font);
+}

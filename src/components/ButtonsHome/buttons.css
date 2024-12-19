@@ -1,0 +1,13 @@
+.botonHome{
+    padding: 15px;
+    margin: 10px;
+    background-color: var(--dark-color-font);
+    color: var(--light-color-font);
+    font-weight: 500;
+    max-width: 130px;
+}
+
+.botonHome:hover{
+    background-color: var(--light-color-font);
+    color: var(--dark-color-font);
+}
