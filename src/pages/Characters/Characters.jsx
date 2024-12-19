@@ -81,9 +81,8 @@ export default function Characters() {
             </div>
             {/* BOTON FILTROS MOBILE */}
             <div className='mobile-filters d-flex rounded-4 justify-content-evenly my-3 mx-5 py-4'>
-                <h2>Filters</h2>
-                <button className='navbar-toggler' onClick={() => { setShow(!show) }} >
-                    <img src="./src/assets/img/filter-icon.svg" alt="" />
+                <h2 className='mb-0'>Filters</h2>
+                <button className='btn btn-filtro navbar-toggler' onClick={() => { setShow(!show) }} >
                 </button>
             </div>
 

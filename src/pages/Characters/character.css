@@ -17,6 +17,14 @@
     color: var(--dark-color-font);
 }
 
+.btn-filtro{
+    background-image: url("../../assets/img/filter-icon.svg");
+    background-size:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40px;
+}
+
 @media(min-width:992px){
     .mobile-filters{
         display: none!important;
