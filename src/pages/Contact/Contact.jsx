@@ -8,7 +8,7 @@ export default function Contact() {
             <Navegation page='contact' />
 
             <main className='d-flex justify-content-around'>
-                <div className='cont-contact d-flex flex-column justify-content-center aling-items-center p-5 mt-5'>
+                <div className='cont-contact d-flex flex-column justify-content-center aling-items-center p-3 p-sm-5 mt-5 mx-3'>
                     <div className='text-center'>
                         <h2>Contact</h2>
                         <h3 className='my-5'>Leave us your information so we can contact you</h3>
